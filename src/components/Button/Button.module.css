@@ -1,0 +1,17 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.button:hover:not(:disabled) { opacity: 0.85; }
+.button:disabled { cursor: not-allowed; opacity: 0.5; }
+
+.primary   { background: #2563eb; color: white; }
+.secondary { background: #e5e7eb; color: #111827; }
+.danger    { background: #dc2626; color: white; }
+
+.small  { padding: 6px 12px;  font-size: 12px; }
+.medium { padding: 10px 18px; font-size: 14px; }
+.large  { padding: 14px 24px; font-size: 16px; }

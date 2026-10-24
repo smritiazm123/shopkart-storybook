@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #111827;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+.logo  { font-size: 20px; font-weight: 700; }
+.cart  { font-size: 15px; }
+.count {
+  margin-left: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #2563eb;
+  font-weight: 700;
+}
